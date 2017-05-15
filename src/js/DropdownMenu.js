@@ -149,11 +149,9 @@ export default class DropdownMenu extends PureComponent {
     return (
       <div className={menuClassName}>
         {this.props.toggle}
-        <CSSTransitionGroup {...transitionProps}>
           {this.props.isOpen &&
           <ul key="items" className={listClassName}>{this.props.children}</ul>
           }
-        </CSSTransitionGroup>
       </div>
     );
   }
