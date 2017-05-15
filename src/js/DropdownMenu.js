@@ -1,6 +1,6 @@
 import React, { PureComponent, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
-import CSSTransitionGroup from 'react-addons-css-transition-group';
+import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 import classnames from 'classnames';
 
 const TAB = 9;
